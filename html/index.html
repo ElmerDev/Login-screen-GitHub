@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="../images/icon.svg">
+        <link rel="stylesheet" href="../css/style.css">
+        
+        <title> Log in Github </title>
+    </head>
+    <body>
+        
+        <header>
+            <h1> GitHub </h1>
+            <nav></nav>
+        </header>
+
+        <section class="content-center">
+            <div class="text-center">
+                <a href="https://github.com/" target="_blank">
+                    <img title="Site do GitHub" src="../images/github.svg" alt="Logo do GitHub">
+                </a>
+            </div>
+
+            <form action="/login" method="POST" id="form-login">
+
+                <div>
+                    <input
+                    type="email"
+                    id="email"
+                    placeholder="Digite o seu e-mail"
+                    required
+                    >
+                </div>
+
+                <div>
+                    <input
+                    type="password"
+                    id="password"
+                    placeholder="Digite a senha"
+                    required
+                    >
+                </div>
+
+                <div>
+                    <button id="btn-submit"> Enviar </button>
+                </div>
+
+            </form>
+        </section>
+
+        <footer>
+            <p> &copy;Elmer Raimundo dos Santos &hearts; </p>
+        </footer>
+
+        <script src="../javascript/script.js"></script>
+    </body>
+</html>
